@@ -13,6 +13,7 @@ if (productdata == "") {
     let productscarts = document.getElementById("shop-cart");
     let badgeDom = document.getElementById("bade");
     let items = document.getElementById("itms");
+    let itemsc = document.getElementById("items");
     // let totalPricecart = document.getElementById("total-pric");
     let products = productsDB;
     
@@ -37,6 +38,7 @@ if (productdata == "") {
     
         badgeDom.innerHTML = totalQt;
         items.innerHTML = totalQt;
+        itemsc.innerHTML = totalQt;
         
     } else {
         console.log("لا توجد بيانات في localStorage.");
@@ -137,7 +139,7 @@ if (productdata == "") {
     
     
       let totalPricecart = document.getElementById("totalc"); 
-
+      let totalPricecart2 = document.getElementById("total-pric"); 
       function totalprice() {
           let price = localStorage.getItem("productsInCart");
           let price1;
@@ -155,6 +157,7 @@ if (productdata == "") {
               price1 = totaprice; 
               console.log(totaprice);
               totalPricecart.innerHTML = "$" + totaprice;
+              totalPricecart2.innerHTML = "$" + totaprice;
           }
       }
   
