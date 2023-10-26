@@ -7,11 +7,12 @@ let productsDB = [
     imageUrl: "img/jewellery-2.jpg",
     imageUrl2: "img/jewellery-1.jpg",
     imageUrl3: "img/jewellery-3.jpg",
-    imageUrl4: "img/jewellery-.jpg",
+    imageUrl4: "img/jewellery-4.jpg",
     imageUrl5: "img/jewellery-5.jpg",
     des: "100000",
     qty: 1,
-    ca: "Arrivals"
+    ca: "Arrivals",
+    category : "Product"
   },
     {
       id: 2,
@@ -24,7 +25,8 @@ let productsDB = [
       imageUrl5: "img/jewellery-5.jpg",
       des: "100000",
       qty: 1,
-      ca: "Trending"
+      ca: "Trending",
+      category : "Product"
     },
     {
       id: 3,
@@ -37,7 +39,8 @@ let productsDB = [
       imageUrl5: "img/jewellery-2.jpg",
       des: "100000",
       qty: 1,
-      ca: "Toprated"
+      ca: "Toprated",
+      category : "Product"
     },
     {
       id: 4,
@@ -116,8 +119,8 @@ let productsDB = [
       imageUrl: "img/3.jpg",
       imageUrl2: "img/Shirt-3.jpg",
       imageUrl3: "img/Shirt-5.jpg",
-      imageUrl4: "img/Shirt-4",
-      imageUrl5: "img/Shirt-2",
+      imageUrl4: "img/Shirt-4.jpg",
+      imageUrl5: "img/Shirt-2.jpg",
       des: "100000",
       qty: 1,
       ca: "Trending",
@@ -212,7 +215,7 @@ let productsDB = [
       title: "Shorts",
       price: 40,
       imageUrl: "img/shorts-2.jpg",
-      imageUrl2: "img/shorts-2",
+      imageUrl2: "img/shorts-1.jpg",
       imageUrl3: "img/shorts3.jpg",
       imageUrl4: "img/shorts4.jpg",
       imageUrl5: "img/shorts5.jpg",
